@@ -1,8 +1,8 @@
 class Code2pdf < Formula
   desc "Convert source code files to PDF with syntax highlighting"
   homepage "https://github.com/readbysearch/code2pdf"
-  url "https://github.com/readbysearch/code2pdf/archive/refs/tags/v1.0.4.tar.gz"
-  sha256 "74671c661a61f70a21682e7d6eb7831481c6e46f0fe6950969000abaf29d696d"
+  url "https://github.com/readbysearch/code2pdf/archive/refs/tags/v1.0.5.tar.gz"
+  sha256 "4674d0cacc78f82f70c4e67fe51b826de34ba6b7866bd74d52d7588909e8febb"
   license "AGPL-3.0"
 
   depends_on "ghostscript"
