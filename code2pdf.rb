@@ -14,6 +14,8 @@ class Code2pdf < Formula
     # Install scripts to a specific location that Homebrew manages
     (prefix/"scripts").install Dir["scripts/*"]
     (prefix/"config").install "config/vimrc"
+    # Make scripts executable
+    chmod 0755, Dir["#{prefix}/scripts/*"]
   end
 
   test do
