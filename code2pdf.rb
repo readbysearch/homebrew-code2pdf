@@ -10,12 +10,10 @@ class Code2pdf < Formula
   depends_on "jq"
 
   def install
-    # Install scripts
     bin.install "bin/code2pdf"
-    prefix.install "scripts"
-    
-    # Install vim syntax configuration
-    prefix.install "config/vimrc"
+    # Install scripts to a specific location that Homebrew manages
+    (prefix/"scripts").install Dir["scripts/*"]
+    (prefix/"config").install "config/vimrc"
   end
 
   test do
