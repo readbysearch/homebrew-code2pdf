@@ -51,3 +51,10 @@ brew install code2pdf
 If you find any issues with the formula, please [open an issue](https://github.com/readbysearch/homebrew-code2pdf/issues) or submit a pull request.
 
 For issues with the code2pdf tool itself, please visit the [main repository](https://github.com/readbysearch/code2pdf).
+
+## License
+
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+
+- For commercial use, please [open a GitHub issue](https://github.com/readbysearch/code2pdf/issues) to discuss licensing options
+- For non-commercial use, you must comply with AGPL-3.0 terms

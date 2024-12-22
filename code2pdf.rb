@@ -3,7 +3,7 @@ class Code2pdf < Formula
   homepage "https://github.com/readbysearch/code2pdf"
   url "https://github.com/readbysearch/code2pdf/archive/refs/tags/v1.0.0.tar.gz"
   sha256 "REPLACE_WITH_ACTUAL_SHA256"
-  license "MIT"
+  license "AGPL-3.0"
 
   depends_on "ghostscript"
   depends_on "vim"
