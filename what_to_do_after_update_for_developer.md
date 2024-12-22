@@ -39,6 +39,7 @@ git push
 # 4. Update local installation:
 
 ```bash
+brew uninstall code2pdf
 brew untap readbysearch/code2pdf
 brew tap readbysearch/code2pdf
 brew install code2pdf
